@@ -6,11 +6,11 @@ $mail->IsSMTP();
 $mail->SMTPAuth = true; // enable SMTP authentication
 $mail->SMTPSecure = "ssl"; // sets the prefix to the servier
 $mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server
-$mail->Port = 465; // set the SMTP port for the GMAIL server
+$mail->Port = 25; // set the SMTP port for the GMAIL server
 $mail->Username = "pete199599@gmail.com"; // GMAIL username
 $mail->Password = "peet991995"; // GMAIL password
-$mail->From = "piranon.n@gmail.com"; // "name@yourdomain.com";
-$mail->FromName = "piranon.com";  // set from Name
+$mail->From = "pete199599@gmail.com"; // "name@yourdomain.com";
+$mail->FromName = "pete";  // set from Name
 $mail->Subject = "สวัสดีครับ ทดสอบการส่งเมล์ครับ"; 
 $mail->Body = 'ทดสอบการส่งเมล์ครับ body ครับ';
  
